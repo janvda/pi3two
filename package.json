@@ -2,7 +2,16 @@
     "name": "pi3two",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-dashboard": "2.8.2",
+        "node-red-node-emoncms": "0.1.0",
+        "node-red-node-snmp": "0.0.15",
+        "node-red-node-sqlite": "0.1.2",
+        "node-red-contrib-mic": "0.0.1",
+        "node-red-contrib-play-audio": "2.2.4",
+        "node-red-node-mongodb": "0.0.14",
+        "node-red-node-random": "0.1.0"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows_pi3two.json",
